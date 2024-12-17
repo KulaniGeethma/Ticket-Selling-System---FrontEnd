@@ -1,0 +1,29 @@
+/* App.css */
+
+/* Set the page's background color and text color */
+body {
+  background-color: #bda275; /* Light gray background */
+  color: #000000; /* Dark text for contrast */
+  font-family: Arial, sans-serif;
+
+}
+
+/* Center the content vertically and horizontally */
+.container {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+/* Styling for the header */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #073c74;
+}
+
+/* Add some margin to each section */
+section {
+  margin-bottom: 30px;
+}
+

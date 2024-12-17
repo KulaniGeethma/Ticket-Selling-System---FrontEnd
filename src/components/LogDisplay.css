@@ -1,0 +1,35 @@
+.card-header-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* Style for the ticket availability box */
+.card-body-box {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #ddd;    /* Light border */
+    padding: 1.5rem;            /* Padding for spacing inside the box */
+    border-radius: 8px;         /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 100%;                /* Ensure the box spans available width */
+    max-width: 400px;           /* Max width to make it responsive */
+    text-align: left;           /* Align text to the left */
+}
+
+/* Heading for the card availability */
+.card-body-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;                /* Dark text color */
+}
+
+/* Style for each card information line */
+.card-body-box p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #555;                /* Lighter text color */
+}
+
+.card-body-box p strong {
+    color: #333;                /* Dark color for labels */
+}
